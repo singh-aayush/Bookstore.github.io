@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect{
+        font-size: 2rem;
+    }
+
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6{
+        text-align: center !important;
+    }
+
+    .section-3 .desktop{
+        font-size: 8vmin;
+    }
+
+    .section-4 .carousel-item{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-4 .carousel-inner{
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .section-4 .card{
+        width: 18rem;
+    }
+
+    .section-4 .carousel-inner{
+        margin-left: 14vmin;
+    }
+}
